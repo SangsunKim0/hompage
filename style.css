@@ -22,8 +22,15 @@ body {
 header {
   padding: 2rem 1rem;
   text-align: center;
-  background: var(--primary);
   color: #ffffff;
+
+  background: 
+    linear-gradient(rgba(30, 91, 184, 0.85), rgba(30, 91, 184, 0.85)),
+    url("image/bono.png");
+
+  background-size: cover;      /* 꽉 채우기 */
+  background-position: center; /* 중앙 정렬 */
+  background-repeat: no-repeat;
 }
 header .subtitle { margin-top: .25rem; opacity: .95; }
 
