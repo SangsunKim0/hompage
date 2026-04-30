@@ -33,6 +33,7 @@ header {
   background-repeat: no-repeat;
 }
 header .subtitle {
+  font-size: 10rem;
   margin-top: .25rem; opacity: .85;
   font-weight: bold;
   font-style: italic;
