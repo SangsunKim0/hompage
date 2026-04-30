@@ -32,7 +32,12 @@ header {
   background-position: center; /* 중앙 정렬 */
   background-repeat: no-repeat;
 }
-header .subtitle { margin-top: .25rem; opacity: .95; }
+header .subtitle {
+  margin-top: .25rem; opacity: .85;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline line-through;
+}
 
 nav {
   background: var(--primary-dark);
