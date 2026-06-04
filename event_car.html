@@ -1,1 +1,23 @@
+<style>
+    body {
+        border: 5px solid red;
+        /* 경계선 표시 */
+        height: 100vh;
+        overflow: hidden;
+    }
 
+    #car {
+        position: absolute;
+        /* 절대 위치 필수 */
+        left: 100px;
+        top: 100px;
+        width: 80px;
+        height: 40px;
+        background: violet;
+    }
+</style>
+<script>
+    var x = 100, y = 100; // 현재 좌표
+    var step = 10; // 이동 거리
+    var borderWidth = 5; // 벽 두께
+</script>
